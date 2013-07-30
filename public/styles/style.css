@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "proxima-nova";
+  src: url("../fonts/proxima.woff");
+}
+
+body {
+  font-family: "proxima-nova";
+  padding-left:1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+}
+
+.content-wrapper {
+  padding-top:36px;
+}
+
+.footer {
+  text-align:right;
+  color:grey;
+}
+
+blockquote {
+  background-color: rgb(214, 214, 214);
+  font-size:110%;
+  margin-left:5em;
+  margin-right:5em;
+}
+
+.jesus img {
+  width:50%;
+  margin: 0px auto;
+  display:block;
+}
+
+.current-status img {
+  width: 100%;
+}
+
+.current-status .updates .purem-info:nth-child(3n + 0) {
+  background-color: rgb(230, 95, 245);
+}
+
+.current-status .updates .purem-info:nth-child(3n + 1) {
+  background-color: rgb(24, 245, 94);
+}
+
+.current-status .updates .purem-info:nth-child(3n + 2) {
+  background-color:(250, 288, 55);
+}
+
+.extend {
+  display:none;
+  padding-top:0.5em;
+}
+
+
+.purem-info {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: rgb(109, 183, 232);
+  border-radius: 2px;
+  margin-bottom: 1em;
+}
+
+.purem-expl {
+  background-color: rgb(214, 214, 214); 
+  text-align:center;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.pure-button-good {
+  background: rgb(76, 201, 71);
+}
+
+.pure-button-bad {
+	background: rgb(202, 60, 60);
+}
+
+.pure-button-xlarge {
+  font-size: 150%;
+}
+
+.center {
+  text-align:center;
+  margin: 0px auto;
+}
+
+.date {
+  text-align:right;
+}
